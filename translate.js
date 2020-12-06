@@ -20,7 +20,8 @@ function clickHandler() {
     //Call the server and give the query
     fetch(urlInput)
     .then((response) => response.json())
-    .then(json=> outputText.innerText = json.contents.translated);
+    .then(json=> outputText.innerText = json.contents.translated)
+    .catch(handleError => console.log("Error occured while connecting to server !!"));
 }
 
 
