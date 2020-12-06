@@ -18,7 +18,10 @@ function clickHandler() {
     //Get the Output box
     var outputText = document.querySelector("#outputText");
     //Call the server and give the query
-    fetch(urlInput)
+    fetch(urlInput, {
+        method: "Get",
+        mode: "no-cors"
+    })
     .then(response=> response.json())
     .then(json=> outputText.innerText = json.contents.translated);
 }
