@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 
 :root {
@@ -40,25 +39,22 @@ h2{
     margin: 0px;
 }
 
-.flex-container {
-    display: flex;
-    margin: 3rem;
-    border: 1px solid black;
-    height: 250px;
-}
-
-.flex-child {
+.main-body {
     margin: auto;
-    padding: 1rem;
-    border: 0.5px var(--secondary-color);
+    text-align: center;
 }
 
-.flex-child:first-child {
-    margin-right: 20px;
+textarea {
+    width: 60%;
+    max-width: 100%;
+    border: 1px solid black;
 }
 
 button {
+    margin: auto;
+    align: center;
+    padding:1rem;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
-    font-size: xx-large;
+    display: block;
+    color: var(--secondary-color)
 }
