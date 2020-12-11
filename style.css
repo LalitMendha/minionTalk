@@ -45,7 +45,7 @@ h2{
 }
 
 textarea {
-    width: 0%;
+    width: 40%;
     max-width: 100%;
     border: 1px solid black;
 }
