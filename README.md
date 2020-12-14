@@ -1,4 +1,7 @@
 # Minion Talk
+
+## Application Link: https://talklikeminion.netlify.app/
+
 ## This appication is build using below technologies:
     * HTML Component
     * CSS Component
