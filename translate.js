@@ -21,7 +21,7 @@ function clickHandler() {
     fetch(urlInput)
     .then((response) => response.json())
     .then(json=> outputText.innerText = json.contents.translated)
-    .catch(handleError => console.log("Error occured while connecting to server !!"));
+    .catch(handleError => alert("Error occured while connecting to server."));
 }
 
 
